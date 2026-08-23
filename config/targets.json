@@ -1,0 +1,13 @@
+[
+  {
+    "name": "linear-changelog",
+    "url": "https://linear.app/changelog",
+    "collector_id": "c_mt5oqgtv1oimzzzzj8",
+    "description": "Linear product changelog entries",
+    "fields": {
+      "title": "The changelog entry heading",
+      "date": "Publication date of the entry",
+      "summary": "First paragraph or summary text of the entry"
+    }
+  }
+]
