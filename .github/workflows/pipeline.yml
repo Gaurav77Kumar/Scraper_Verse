@@ -34,6 +34,7 @@ jobs:
 
       - name: Run self-healing pipeline
         env:
+          BRIGHTDATA_API_KEY: ${{ secrets.BRIGHTDATA_API_TOKEN }}
           BRIGHTDATA_API_TOKEN: ${{ secrets.BRIGHTDATA_API_TOKEN }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           HEAL_ON_FAILURE: ${{ inputs.heal && 'true' || 'true' }}
